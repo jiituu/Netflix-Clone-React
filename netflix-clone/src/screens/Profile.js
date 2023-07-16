@@ -23,6 +23,7 @@ function Profile() {
             <div className="profile__details">
               <h2>{user.email}</h2>
               <div className="profile_plans">
+                <h3> Plans </h3>
                 <button onClick={handleSignOut} className='profile_signout'>Sign out</button>
               </div>
             </div>
