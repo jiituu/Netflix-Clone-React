@@ -5,8 +5,8 @@ import "./SignupScreen.css";
 import { auth } from '../firebase';
 
 function SignupScreen() {
-    const emailRef = React.useRef(null);
-    const passwordRef = React.useRef(null);
+    const emailRef = React.useRef();
+    const passwordRef = React.useRef();
 
     const register = (e) => {
         e.preventDefault();
